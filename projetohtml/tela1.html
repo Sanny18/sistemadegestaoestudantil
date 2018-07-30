@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>tela1</title>
+
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .formulario{
+        border: 6px solid #00CD66;
+        border-bottom: none;
+        padding: 40px;
+      }
+    
+      body{
+      background-image:url("https://abrilsuperinteressante.files.wordpress.com/2005/11/escola-2.png" );
+      background-attachment:fixed;
+        background-size:100%;
+        background-repeat:no-repeat;
+        background-color: white;
+      }
+      h1{
+         color: white; 
+      }
+      .green-border {
+         border-color: #00CD66;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 50px;
+         }
+      .smaller-image{
+          width: 10px;
+          
+      }
+      form {
+                    margin: 0 auto;
+                    width: 600px;
+                    padding: 1em;
+                    border: 10px solid;
+                    border-radius: 0em;
+                }
+                
+    </style>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-offset-3 h1">
+             <img src="C:\Users\loja\Desktop\sistemadegestaoestudantil\projetohtml\SGE (2)menor.png"  alt="Logo" width="150" height="150" class="green-border img-responsive" class="smaller-image" alt="Logo SGE">
+
+      </div>
+      <br> 
+      <div class="col-sm-offset-5 col-sm-4">
+
+        <h1><strong>Sistema de Gestão Estudantil</strong></h1>
+
+      </div>
+    </div>
+
+    
+
+
+
+    <form class="form-horizontal formulario" class="col-sm-offset-1 "   action="/action_page.php" align="center" method="post">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email" style="color:white"><strong>Usuário:</strong></label>
+          <div class="col-sm-9">
+              <input type="usuario" class="form-control" id="usuario" placeholder="gaby100%gatinha">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd" style="color:white"><strong>Senha:</strong></label>
+            <div class="col-sm-9">
+              <input type="password" class="form-control" name="senha" size="45" maxlength="7" placeholder="*********************">
+              <!--<input type="password" name="senha" size="50" maxlength="6">-->
+            </div>
+          </div>
+        <div class="form-group">
+          <div class="col-sm-offset-9 col-sm-2">
+            <a href="tela2.html" class="btn btn-default" role="button"> Entrar </a>
+          </div>
+        </div>
+          
+        </form>
+    
+    </div>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+<!--música-->
+<!--<div id="tv-radio">
+        <audio id="musica" controls="controls">
+            <source src="musica/deixa.m4a" type="audio/mpeg"/>
+        </audio>
+    </div>-->
+</body>
+</html>
