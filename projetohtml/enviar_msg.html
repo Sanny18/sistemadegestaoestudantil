@@ -69,16 +69,22 @@
         box-shadow:0 5px 0 #00CD66;
 
     }
+    .buscar {
+      display: block;
+      padding: 5px;
+      width: 40%;
+      }
+
     </style>
 
 <body>
-    <div class="container">
+    <!--<div class="container">
         <div class="row">
         <div class="col-sm-offset-2 col-sm-3 h1">
                  <img src="C:\Users\loja\Desktop\sistemadegestaoestudantil\projetohtml\SGE (2)menor.png"  alt="Logo" width="140" height="140" class="green-border img-responsive" class="smaller-image" alt="Logo SGE">
     
-          </div>
-          <div class="col-sm-offset-5">
+          </div>-->
+          <div class="col-sm-offset-6">
             <br>
             <h1><strong>Sistema de Gestão Estudantil</strong></h1>
     
@@ -86,11 +92,46 @@
         </div>
       </body>
       <br>
-      <br>
-  
-    <form class="form-horizontal formulario" class="col-sm-offset-1 "  style="background-color: white" action="tela2.html" align="center" method="post"><textarea type="text" name="descrição" rows="10" cols="70" size=""></textarea><div class="form-group">
+
+      <!--  <form class="col-sm-2 col-sm-offset-10 form-horizontal formulario" method="post">
+            <label for="busca">Buscar: </label>
+             <input type="search" id="busca" name="pesquisa">
+             <button type="submit">OK</button>
+           </form>-->
+        <body>
+        <form class="form-horizontal formulario col-sm-offset-1 col-sm-3" method="get" class="borda-tabela" class="success" style="background-color:white ">
+          <input type="checkbox" name="professor"> Geicianne - Filosofia<br>
+          <input type="checkbox" name="professor"> Cláudio - Matemática<br>
+          <input type="checkbox" name="professor"> Sophia - Física<br>
+          <input type="checkbox" name="professor"> André - Espanhol<br>
+          <input type="checkbox" name="professor"> Amélia - Inglês<br>
+          <input type="checkbox" name="professor"> Fabrícia - Química<br>
+          <input type="checkbox" name="professor"> Arnaldo - Português<br>
+          <input type="checkbox" name="professor"> Caio - Ed. Física<br>
+          <input type="checkbox" name="professor"> Letícia - Artes<br>
+          <input type="checkbox" name="professor"> Érika - En. Religioso<br>
+          <input type="checkbox" name="professor"> Wesley - Biologia<br>
+          <input type="checkbox" name="professor"> Fátima - Geografia<br>
+
+          <br>
+          <br>
+          <!--<form action=" " method="post">
+            <label for="busca">Buscar: </label>
+            <input type="search" class="buscar" id="busca" name="q">
+            <button type="submit" class="col-sm-1 col-sm-offset-4">OK</button>
+          </form>
+          <br>
+          <br>-->
+            
+        </form>
+        </body>
+
+    <form class="form-horizontal formulario  col-sm-offset-1 col-sm-6 " class="col-sm-offset-1 "  style="background-color: white"  align="center" method="post"><input type="checkbox" name="faltas" value="faltas"> Precisarei faltar<br><textarea type="text" name="descrição" rows="10" cols="70" size="30"></textarea>
+      <div class="form-group">
       <br> <a href="" class="col-sm-6 col-sm-offset-3 botao botao-cinza" style="text-align: center">Enviar</a>
-      </div></form>
+      </div>
+    </form>
+    
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
