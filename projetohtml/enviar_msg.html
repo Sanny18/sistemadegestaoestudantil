@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>m.ensinoreligioso</title>
+  <title>enviar mensagem</title>
 
   <!-- Bootstrap -->
   <!-- Latest compiled and minified CSS -->
@@ -23,7 +23,7 @@
     <style>
       .formulario{
         border: 6px solid #00CD66;
-        padding: 10px;
+        padding: 40px;
       }
     
       body{
@@ -36,7 +36,12 @@
       h1{
          color: white; 
       }
-      
+      .green-border {
+         border-color: #00CD66;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 50px;
+         }
       .smaller-image{
           width: 10px;
           
@@ -47,62 +52,59 @@
                     padding: 1em;
                     border: 10px solid;
                     border-radius: 0em;
+                }
+      .botao{
+        font-family:Arial;
+        font-size: 15px;
+        text-transform:uppercase;
+        font-weight: 500;
+        border:#00CD66;
+        padding: 10px;
+        cursor: pointer;
+
     }
-    
+    .botao-cinza{
+        background: #008B45;
+        color:white;
+        box-shadow:0 5px 0 #00CD66;
+
+    }
     </style>
 
-    <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-offset-1 col-sm-3 h1">
-             <img src="http://escoladigital-prod.s3.amazonaws.com/escoladigital/uploads/facet_option/image/5ac6321d69702d5645ff2f00/li__o_pr_tica_-_ensino_religioso.png"  alt="Logo" width="200" height="200" class="green-border img-responsive" class="smaller-image" alt="Logo SGE">
-
-      </div> 
-     
-      <div class="col-sm-offset-5">
-
-        <h1><strong>Sistema de Gestão Estudantil</strong></h1>
-
-      </div>
-    </div>
-   
+<body>
     <div class="container">
-      <div class="row"></div>
-      <div class="col-sm-offset-4 col-sm-6">
+        <div class="row">
+        <div class="col-sm-offset-2 col-sm-3 h1">
+                 <img src="C:\Users\loja\Desktop\sistemadegestaoestudantil\projetohtml\SGE (2)menor.png"  alt="Logo" width="140" height="140" class="green-border img-responsive" class="smaller-image" alt="Logo SGE">
+    
+          </div>
+          <div class="col-sm-offset-5">
+            <br>
+            <h1><strong>Sistema de Gestão Estudantil</strong></h1>
+    
+          </div>
+        </div>
+      </body>
+      <br>
+      <br>
+  
+    <form class="form-horizontal formulario" class="col-sm-offset-1 "  style="background-color: white" action="tela2.html" align="center" method="post"><textarea type="text" name="descrição" rows="10" cols="70" size=""></textarea><div class="form-group">
+      <br> <a href="" class="col-sm-6 col-sm-offset-3 botao botao-cinza" style="text-align: center">Enviar</a>
+      </div></form>
 
-        <h1><strong>Ensino Religioso</strong></h1>
-
-      </div>
-    </div>
-
-    <form class="form-horizontal formulario"   class="success" class="col-sm-offset-1 "   action="/action_page.php" align="center" method="post">
-        <h2>Suas Faltas</h2>         
-        <table class="table table-bordered" style="background-color:white ">
-              <th class="success">Disciplina</th>
-              <th class="success">1ºB</th>
-              <th class="success">2ºB</th>  
-              <th class="success">3ºB</th>
-              <th class="success">4ºB</th>
-              <th class="success">Faltas possíveis</th>
-              <th class="success">Total de faltas </th>
-             
-            </tr>
-          </thead>
-        
-        
-
-          <!--<caption><strong>Notas</strong></caption>-->
-          <tr class="success"><td>Ensino Religioso</td><td>0</td><td>1</td><td >0</td><td >0</td><td>10</td><td>1</td>
-        </table>
-      </div>
-          
-        </form>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
-    </body>
+<!--música-->
+<!--<div id="tv-radio">
+        <audio id="musica" controls="controls">
+            <source src="musica/deixa.m4a" type="audio/mpeg"/>
+        </audio>
+    </div>-->
+
+</body>
+</html>
